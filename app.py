@@ -9,7 +9,7 @@ st.set_page_config(page_title="Stock Trend Confidence Predictor")
 st.title("📈 Stock Trend Confidence Predictor")
 
 # Load model
-model = joblib.load("/content/stock-trend-predictor/model/model.pkl")
+model = joblib.load("model/model.pkl")
 
 
 symbol = st.text_input("Enter Stock Symbol (e.g. AAPL)", "AAPL")
